@@ -1,0 +1,33 @@
+# Documentos y artefactos de informe
+documentacion/
+mantenimiento/
+*.docx
+*.pdf
+*.pptx
+*.md
+
+# Backend (Java / Maven)
+grass-potokar-backend-main/target/
+**/target/
+**/*.class
+**/*.jar
+!**/mvnw
+!**/mvnw.cmd
+!**/.mvn/wrapper/maven-wrapper.properties
+
+# Frontend (React / Vite / pnpm)
+grass-potokar-frontend-main/node_modules/
+**/node_modules/
+**/.pnpm-store/
+grass-potokar-frontend-main/dist/
+**/dist/
+**/.vite/
+.env.local
+
+# Editores y sistema operativo
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
+*.log
